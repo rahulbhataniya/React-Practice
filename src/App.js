@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 import Greeting from './Greeting';
+import { CounterButton } from './CounterButton';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <Greeting />
+      <CounterButton />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
